@@ -1,6 +1,8 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
 
-namespace PoolSystemAPIWebApp.Models;
+namespace PoolSystemAPIWebApp.Model;
+
 public partial class Administrator
 {
     public int AdminId { get; set; }
@@ -8,6 +10,4 @@ public partial class Administrator
     public int? UserId { get; set; }
 
     public string Role { get; set; } = null!;
-
-    public virtual User? User { get; set; }
 }

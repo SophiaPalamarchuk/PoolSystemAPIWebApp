@@ -1,5 +1,7 @@
-﻿
-namespace PoolSystemAPIWebApp.Models;
+﻿using System;
+using System.Collections.Generic;
+
+namespace PoolSystemAPIWebApp.Model;
 
 public partial class Schedule
 {
